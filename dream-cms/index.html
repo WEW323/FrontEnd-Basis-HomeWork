@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>启蒙科技练习</title>
+    <link rel="stylesheet" type="text/css" href="./css/all.css"/>
+</head>
+<body>
+<!--头部区域-->
+<div class="hed">
+    <img class="header-picture-1" src="./img/logo.png" alt="logo"/>
+    <img class="header-picture-2" src="./img/wechart.png" alt="vx"/>
+</div>
+<!--创建遮罩登录-->
+<div class="mask-login">
+    <div class="login">
+        <div class="login-1">
+            <img class="end-pix" src="./img/icon.png" alt="叉号图标"/>
+        </div>
+    </div>
+</div>
+<script>
+    // 获取右上角二维码
+    var pic = document.getElementsByClassName("header-picture-2")[0];
+    console.log(pic)
+    //获取遮罩登录层
+    var sta = document.getElementsByClassName("mask-login")[0];
+    console.log(sta);
+    //获取叉号图标
+    var end = document.getElementsByClassName("end-pix")[0];
+    console.log(end)
+    //绑定单击事件-点击二维码弹出登录层效果
+    pic.onclick = function () {
+        sta.style.cssText = "display:block";
+    };
+    //绑定单击事件-点击叉号取消登录层效果
+    end.onclick = function () {
+        sta.style.cssText = "display:none";
+    }
+</script>
+<!--导航栏布局-->
+<div class="navigation">
+    <nav class="layout">
+        <ul class="nav-main">
+            <li>首页
+                <ul class="home-page">
+                    <li>站点公告</li>
+                    <li>最新通知</li>
+                    <li>成果公开</li>
+                </ul>
+            </li>
+            <li>首页案例
+                <ul class="home-page">
+                    <li>站点公告</li>
+                    <li>最新通知</li>
+                    <li>成果公开</li>
+                </ul>
+            </li>
+            <li>联系我们
+                <ul class="home-page">
+                    <li>站点公告</li>
+                    <li>最新通知</li>
+                    <li>成果公开</li>
+                </ul>
+            </li>
+            <li>产品服务
+                <ul class="home-page">
+                    <li>站点公告</li>
+                    <li>最新通知</li>
+                    <li>成果公开</li>
+                </ul>
+            </li>
+            <li>产品质量
+                <ul class="home-page">
+                    <li>站点公告</li>
+                    <li>最新通知</li>
+                    <li>成果公开</li>
+                </ul>
+            </li>
+            <li>产品中心
+                <ul class="home-page">
+                    <li>站点公告</li>
+                    <li>最新通知</li>
+                    <li>成果公开</li>
+                </ul>
+            </li>
+            <li>产品研发
+                <ul class="home-page">
+                    <li>站点公告</li>
+                    <li>最新通知</li>
+                    <li>成果公开</li>
+                </ul>
+            </li>
+            <li>产品展示
+                <ul class="home-page">
+                    <li>站点公告</li>
+                    <li>最新通知</li>
+                    <li>成果公开</li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</div>
+<!--banner图展示区域-->
+<div class="banner">
+    <div class="banner-picture">
+        <img class="picture-banner" src="./img/1.jpg" alt="picture-banner"/>
+        <img class="picture-banner" src="./img/2.jpg" alt="picture-banner"/>
+        <img class="picture-banner" src="./img/3.jpg" alt="picture-banner"/>
+        <img class="picture-banner" src="./img/4.jpg" alt="picture-banner"/>
+        <img class="picture-banner" src="./img/5.jpg" alt="picture-banner"/>
+        <img class="picture-banner" src="./img/6.jpg" alt="picture-banner"/>
+        <img class="picture-banner" src="./img/7.jpg" alt="picture-banner"/>
+        <img class="picture-banner" src="./img/8.jpg" alt="picture-banner"/>
+    </div>
+</div>
+<!--文字区域-->
+<div class="text">
+    <span class="text-1">
+        新闻报道
+    </span>
+    <span class="text-2">
+        您所在的位置:启蒙科技>新闻报道
+    </span>
+</div>
+<!--图片展示区域-->
+<div class="picture-display">
+    <div class="is-picture-display">
+        <img src="./img/1.jpg" alt="picture"/>
+        <div class="mask">
+            <p class="mask-text-1">世纪家园</p>
+            <p class="mask-text-2">详情点击</p>
+        </div>
+    </div>
+    <div class="is-picture-display">
+        <img src="./img/2.jpg" alt="picture"/>
+        <div class="mask">
+            <p class="mask-text-1">世纪家园</p>
+            <p class="mask-text-2">详情点击</p>
+        </div>
+    </div>
+    <div class="is-picture-display">
+        <img src="./img/3.jpg" alt="picture"/>
+        <div class="mask">
+            <p class="mask-text-1">世纪家园</p>
+            <p class="mask-text-2">详情点击</p>
+        </div>
+    </div>
+    <div class="is-picture-display">
+        <img src="./img/4.jpg" alt="picture"/>
+        <div class="mask">
+            <p class="mask-text-1">世纪家园</p>
+            <p class="mask-text-2">详情点击</p>
+        </div>
+    </div>
+    <div class="is-picture-display">
+        <img src="./img/5.jpg" alt="picture"/>
+        <div class="mask">
+            <p class="mask-text-1">世纪家园</p>
+            <p class="mask-text-2">详情点击</p>
+        </div>
+    </div>
+    <div class="is-picture-display">
+        <img src="./img/6.jpg" alt="picture"/>
+        <div class="mask">
+            <p class="mask-text-1">世纪家园</p>
+            <p class="mask-text-2">详情点击</p>
+        </div>
+    </div>
+    <div class="is-picture-display">
+        <img src="./img/7.jpg" alt="picture"/>
+        <div class="mask">
+            <p class="mask-text-1">世纪家园</p>
+            <p class="mask-text-2">详情点击</p>
+        </div>
+    </div>
+    <div class="is-picture-display">
+        <img src="./img/8.jpg" alt="picture"/>
+        <div class="mask">
+            <p class="mask-text-1">世纪家园</p>
+            <p class="mask-text-2">详情点击</p>
+        </div>
+    </div>
+</div>
+<!--底部区域-->
+<div class="footer">
+    &copy备案号
+</div>
+</body>
+</html>
